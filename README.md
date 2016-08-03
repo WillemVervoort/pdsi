@@ -4,6 +4,13 @@ Calculation of (sc)PDSI from monthly temperature and precipition data in R. This
 
 ## Installation
 
+Note that you need the newest version of the package "digest"
+re-install if necessary
+```R
+if!require(digest))
+  install.packages("digest")
+```
+
 ``` R
 install.packages("devtools")
 library(devtools)
